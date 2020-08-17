@@ -12,6 +12,7 @@ const getActiveTab = () => {
   if (window.location.href.includes('react-hook-form')) {
     return 'react-hook-form';
   }
+  return 'redux-form'
 }
 
 export default function Layout({ children }: { children: ReactNode }) {

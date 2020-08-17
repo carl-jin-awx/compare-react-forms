@@ -21,6 +21,7 @@ export default function App() {
           <Route path="/redux-form" exact component={ReduxForm} />
           <Route path="/react-hook-form" exact component={ReactHookForm} />
           <Route path="/formik" exact component={Formik} />
+          <Route path="*" component={ReduxForm} />
         </Switch>
       </BrowserRouter>
     </Provider>
